@@ -1,0 +1,60 @@
+[
+  {
+    "id": "sagar-fiesta-2026",
+    "title": "Sagar Fiesta 2026",
+    "category": "Nirmaan",
+    "date": "2026-03-25T10:00:00",
+    "status": "Filling Fast",
+    "description": "The ultimate tech-cultural extravaganza of SISTec. A celebration of innovation, talent, and creativity.",
+    "longDescription": "Sagar Fiesta is the flagship event of SISTec, bringing together students from across the region to compete in technical, cultural, and sports events. From robo-wars to hackathons, and fashion shows to rock bands, there's something for everyone.",
+    "image": "https://images.unsplash.com/photo-1540575861501-7cf05a4b125a?q=80&w=1000",
+    "tags": ["Mega Event", "Cultural", "Technical"],
+    "schedule": [
+      { "time": "10:00 AM", "activity": "Inauguration" },
+      { "time": "12:00 PM", "activity": "Technical Competitions" },
+      { "time": "04:00 PM", "activity": "Culturals Night" }
+    ],
+    "faq": [
+      { "q": "Who can participate?", "a": "All engineering and management students can participate." },
+      { "q": "Is registration mandatory?", "a": "Yes, online registration is required for all events." }
+    ]
+  },
+  {
+    "id": "hack-sistec-1",
+    "title": "Samadhaan Hackathon",
+    "category": "Samadhaan",
+    "date": "2026-04-10T09:00:00",
+    "status": "Open",
+    "description": "24-hour hackathon to solve real-world problems. Build, innovate, and win big!",
+    "longDescription": "Samadhaan is a platform for young minds to tackle challenges in healthcare, agriculture, and urban development using technology. Join teams, brainstorm, and build prototypes within 24 hours.",
+    "image": "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?q=80&w=1000",
+    "tags": ["Hackathon", "Innovation", "Coding"],
+    "schedule": [
+      { "time": "09:00 AM", "activity": "Problem Statement Reveal" },
+      { "time": "10:00 AM", "activity": "Hacking Starts" },
+      { "time": "10:00 AM (Next Day)", "activity": "Pitching Session" }
+    ],
+    "faq": [
+      { "q": "What is the team size?", "a": "Teams can have 2 to 4 members." },
+      { "q": "Are hardware projects allowed?", "a": "Yes, we encourage both software and hardware solutions." }
+    ]
+  },
+  {
+    "id": "adhaar-quiz",
+    "title": "Adhaar Quiz League",
+    "category": "Adhaar",
+    "date": "2026-02-28T11:00:00",
+    "status": "Closed",
+    "description": "Test your knowledge across science, tech, and current affairs in this mega quiz.",
+    "longDescription": "Adhaar Quiz League is designed to challenge your intellect and memory. Compete against the brightest minds and dive deep into the world of facts.",
+    "image": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?q=80&w=1000",
+    "tags": ["Quiz", "Knowledge", "Compete"],
+    "schedule": [
+      { "time": "11:00 AM", "activity": "Preliminary Round" },
+      { "time": "02:00 PM", "activity": "Final Stage Round" }
+    ],
+    "faq": [
+      { "q": "Is there a registration fee?", "a": "No, entry is free for all SISTec students." }
+    ]
+  }
+]
