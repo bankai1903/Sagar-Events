@@ -37,7 +37,10 @@ export default function EventCard({ event }: EventProps) {
       initial={{ opacity: 0, scale: 0.9 }}
       animate={{ opacity: 1, scale: 1 }}
       exit={{ opacity: 0, scale: 0.9 }}
-      className="group glass-card rounded-2xl overflow-hidden flex flex-col h-full hover:border-accent-blue/50 transition-colors"
+      className={cn(
+        "group glass-card rounded-2xl overflow-hidden flex flex-col h-full hover:border-accent-blue/50 transition-all",
+        event.status === 'Closed' && "opacity-75 grayscale hover:grayscale-0"
+      )}
     >
       <Link href={`/events/${event.id}`} className="block">
         <div className="relative h-48 overflow-hidden">

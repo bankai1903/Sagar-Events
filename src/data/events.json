@@ -5,8 +5,8 @@
     "category": "Nirmaan",
     "date": "2026-03-25T10:00:00",
     "status": "Filling Fast",
-    "description": "The ultimate tech-cultural extravaganza of SISTec. A celebration of innovation, talent, and creativity.",
-    "longDescription": "Sagar Fiesta is the flagship event of SISTec, bringing together students from across the region to compete in technical, cultural, and sports events. From robo-wars to hackathons, and fashion shows to rock bands, there's something for everyone.",
+    "description": "Sagar Fiesta 2026 is a vibrant techno-cultural extravaganza at SISTec Gandhi Nagar, Bhopal. A celebration of innovation, talent, and creativity.",
+    "longDescription": "Sagar Fiesta 2026 is a vibrant techno-cultural extravaganza organized by Sagar Institute of Science and Technology, Gandhi Nagar, Bhopal, bringing together the perfect fusion of technology, creativity, art, and entertainment.\n\nMore than just a fest, Sagar Fiesta is a celebration of ideas, innovation, and youthful energy. It creates an electrifying atmosphere filled with lights, music, technology, and creativity, where students from diverse backgrounds and disciplines unite to learn, collaborate, innovate, and showcase their talents.\n\nScheduled to be held from 3rd – 5th April 2026, Sagar Fiesta will host a dynamic lineup of technical competitions, cultural performances, workshops, and art exhibitions. These events provide a powerful platform for students from different colleges to demonstrate their skills, express their creativity, and connect with like-minded innovators and artists.\n\nThe fest aims to inspire young minds to think beyond the classroom, explore new possibilities, and transform ideas into reality, while celebrating the spirit of creativity, technology, and collaboration.\n\nSagar Fiesta 2026 – Where Innovation Meets Celebration.",
     "image": "https://images.unsplash.com/photo-1540575861501-7cf05a4b125a?q=80&w=1000",
     "tags": ["Mega Event", "Cultural", "Technical"],
     "schedule": [
@@ -20,23 +20,23 @@
     ]
   },
   {
-    "id": "hack-sistec-1",
-    "title": "Samadhaan Hackathon",
-    "category": "Samadhaan",
-    "date": "2026-04-10T09:00:00",
-    "status": "Open",
-    "description": "24-hour hackathon to solve real-world problems. Build, innovate, and win big!",
-    "longDescription": "Samadhaan is a platform for young minds to tackle challenges in healthcare, agriculture, and urban development using technology. Join teams, brainstorm, and build prototypes within 24 hours.",
-    "image": "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?q=80&w=1000",
-    "tags": ["Hackathon", "Innovation", "Coding"],
+    "id": "sagar-roadies-2026",
+    "title": "Sagar Roadies",
+    "category": "Adhaar",
+    "date": "2026-04-02T09:00:00",
+    "status": "Filling Fast",
+    "description": "The ultimate test of guts, glory, and endurance in this high-energy adventure challenge.",
+    "longDescription": "Sagar Roadies is not for the faint-hearted. It's a series of physical and mental challenges designed to test your resilience, teamwork, and decision-making under pressure. Join the journey to find the ultimate Roadie of SISTec.\n\nTheme: ROOT TO RISE - Honour your Roots, Rise towards Future.\nNational Level Techno-Cultural Fest.",
+    "image": "https://i.postimg.cc/qR00L7QJ/sagar-roadies.jpg",
+    "tags": ["Adventure", "Endurance", "Challenge"],
     "schedule": [
-      { "time": "09:00 AM", "activity": "Problem Statement Reveal" },
-      { "time": "10:00 AM", "activity": "Hacking Starts" },
-      { "time": "10:00 AM (Next Day)", "activity": "Pitching Session" }
+      { "time": "09:00 AM", "activity": "Auditions & Physical Test" },
+      { "time": "01:00 PM", "activity": "Mental Endurance Tasks" },
+      { "time": "04:00 PM", "activity": "Final Elimination" }
     ],
     "faq": [
-      { "q": "What is the team size?", "a": "Teams can have 2 to 4 members." },
-      { "q": "Are hardware projects allowed?", "a": "Yes, we encourage both software and hardware solutions." }
+      { "q": "What should I wear?", "a": "Comfortable sports attire and sturdy shoes are mandatory." },
+      { "q": "Is there an age limit?", "a": "Participants must be current college students." }
     ]
   },
   {
@@ -56,5 +56,161 @@
     "faq": [
       { "q": "Is there a registration fee?", "a": "No, entry is free for all SISTec students." }
     ]
+  },
+  {
+    "id": "code-rush-2026",
+    "title": "Code Rush: Competitive Programming",
+    "category": "Nirmaan",
+    "date": "2026-03-26T14:00:00",
+    "status": "Filling Fast",
+    "description": "Show off your algorithm and problem-solving skills in this high-intensity coding duel.",
+    "longDescription": "Code Rush is the ultimate test of speed and logic. Participants will solve complex algorithmic problems within a limited timeframe. Rank high to win prizes and prestige.",
+    "image": "https://images.unsplash.com/photo-1542831371-29b0f74f9713?q=80&w=1000",
+    "tags": ["Coding", "Algorithms", "Competition"],
+    "schedule": [{"time": "02:00 PM", "activity": "Rules Briefing"}, {"time": "02:30 PM", "activity": "Coding Round"}, {"time": "05:00 PM", "activity": "Result Declaration"}],
+    "faq": [{"q": "Language support?", "a": "C++, Java, Python, and JavaScript are supported."}]
+  },
+  {
+    "id": "robotics-war",
+    "title": "Robo-Wars",
+    "category": "Nirmaan",
+    "date": "2026-03-27T11:00:00",
+    "status": "Filling Fast",
+    "description": "Witness the clash of metal and innovation in the most-awaited robotics battle.",
+    "longDescription": "Robo-Wars brings together engineering brilliance and combat strategy. Build a robust robot to push your opponents out of the arena or incapacitate them.",
+    "image": "https://images.unsplash.com/photo-1535378917042-10a22c95931a?q=80&w=1000",
+    "tags": ["Robotics", "Hardware", "Battle"],
+    "schedule": [{"time": "11:00 AM", "activity": "Safety Inspection"}, {"time": "12:30 PM", "activity": "Qualifying Heats"}, {"time": "04:00 PM", "activity": "Final Showdown"}],
+    "faq": [{"q": "Weight limit?", "a": "The maximum robot weight is 15kg."}]
+  },
+  {
+    "id": "ui-ux-design-challenge",
+    "title": "Design-A-Thon",
+    "category": "Samadhaan",
+    "date": "2026-04-11T10:00:00",
+    "status": "Registering",
+    "description": "Create intuitive and beautiful user experiences for real-world application challenges.",
+    "longDescription": "Focus on the user journey and visual storytelling. Design-A-Thon challenges designers to solve workflow problems through wireframes and high-fidelity prototypes.",
+    "image": "https://images.unsplash.com/photo-1586717791821-3f44a563eb4c?q=80&w=1000",
+    "tags": ["UI/UX", "Creativity", "Product Design"],
+    "schedule": [{"time": "10:00 AM", "activity": "Problem Briefing"}, {"time": "05:00 PM", "activity": "Final Presentation"}],
+    "faq": [{"q": "Software allowed?", "a": "Figma, Adobe XD, or Sketch."}]
+  },
+  {
+    "id": "cultural-singing-star",
+    "title": "SISTec Voice: Solo Singing",
+    "category": "Adhaar",
+    "date": "2026-04-01T17:00:00",
+    "status": "Filling Fast",
+    "description": "Find the voice of the year in this melodic competition.",
+    "longDescription": "Singing Star is a platform for solo vocalists to showcase their musical range. From classical to contemporary, all genres are welcome.",
+    "image": "https://images.unsplash.com/photo-1516280440614-37939bbacd81?q=80&w=1000",
+    "tags": ["Music", "Vocals", "Performance"],
+    "schedule": [{"time": "05:00 PM", "activity": "Warm-up Round"}, {"time": "07:00 PM", "activity": "Main Stage Performance"}],
+    "faq": [{"q": "Duration?", "a": "Each performer gets 4 minutes maximum."}]
+  },
+  {
+    "id": "iot-innovation-fair",
+    "title": "IoT Expo",
+    "category": "Samadhaan",
+    "date": "2026-04-12T09:00:00",
+    "status": "Registering",
+    "description": "Showcase connected solutions that can transform everyday living.",
+    "longDescription": "The IoT Expo is a gathering for hardware enthusiasts. Present your smart home, industrial automation, or agricultural monitoring projects.",
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=1000",
+    "tags": ["IoT", "Electronics", "Innovation"],
+    "schedule": [{"time": "09:00 AM", "activity": "Booth Setup"}, {"time": "11:00 AM", "activity": "Judging Rounds"}],
+    "faq": [{"q": "Power supply provided?", "a": "Yes, basic AC power is provided at each booth."}]
+  },
+  {
+    "id": "e-sports-valorant",
+    "title": "Valorant Championship",
+    "category": "Nirmaan",
+    "date": "2026-03-28T10:00:00",
+    "status": "Filling Fast",
+    "description": "Battle out in the tactical shooter tournament to claim the top spot.",
+    "longDescription": "Join the high-stakes E-sports arena. 5v5 tactical shooter tournament. May the best team with the best strategy win.",
+    "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?q=80&w=1000",
+    "tags": ["Gaming", "E-sports", "Valorant"],
+    "schedule": [{"time": "10:00 AM", "activity": "Group Stages"}, {"time": "03:00 PM", "activity": "Semi-Finals"}],
+    "faq": [{"q": "Bring own gear?", "a": "You are encouraged to bring your own peripherals."}]
+  },
+  {
+    "id": "photography-contest",
+    "title": "Lens Master: Photography",
+    "category": "Adhaar",
+    "date": "2026-03-29T08:00:00",
+    "status": "Registering",
+    "description": "Capture the essence of the fest through your lens.",
+    "longDescription": "A themed photography competition. Capture moments, emotions, and the spirit of Sagar Fiesta within the campus.",
+    "image": "https://images.unsplash.com/photo-1452587925148-ce544e77e70d?q=80&w=1000",
+    "tags": ["Photography", "Art", "Creativity"],
+    "schedule": [{"time": "08:00 AM", "activity": "Theme Reveal"}, {"time": "05:00 PM", "activity": "Submission Deadline"}],
+    "faq": [{"q": "Mobile photography allowed?", "a": "Yes, there is a separate category for mobile photography."}]
+  },
+  {
+    "id": "debate-competition",
+    "title": "War of Words: Debate",
+    "category": "Adhaar",
+    "date": "2026-03-30T13:00:00",
+    "status": "Registering",
+    "description": "Engage in intellectual battles on modern technical and ethical topics.",
+    "longDescription": "Express your views and challenge opinions in a structured debate format. Topics will cover AI ethics, future of engineering, and social change.",
+    "image": "https://images.unsplash.com/photo-1524178232363-1fb28f74b0cd?q=80&w=1000",
+    "tags": ["Debate", "Oratory", "Critical Thinking"],
+    "schedule": [{"time": "01:00 PM", "activity": "Opening Remarks"}, {"time": "01:30 PM", "activity": "Preliminary Rounds"}],
+    "faq": [{"q": "Language?", "a": "English and Hindi are allowed."}]
+  },
+  {
+    "id": "bridge-it-structural",
+    "title": "Bridge-It: Structural Contest",
+    "category": "Nirmaan",
+    "date": "2026-04-02T10:00:00",
+    "status": "Registering",
+    "description": "Design bridges with popsicle sticks that can withstand maximum load.",
+    "longDescription": "Test your civil engineering skills. Construct a bridge using provided materials and see it face the ultimate load-bearing test.",
+    "image": "https://images.unsplash.com/photo-1545624903-519702283995?q=80&w=1000",
+    "tags": ["Civil", "Structural", "Engineering"],
+    "schedule": [{"time": "10:00 AM", "activity": "Construction Phase"}, {"time": "02:00 PM", "activity": "Testing & Evaluation"}],
+    "faq": [{"q": "Materials provided?", "a": "Yes, popsicle sticks and glue will be provided."}]
+  },
+  {
+    "id": "startup-pitch-fest",
+    "title": "Pitch Perfect: Startups",
+    "category": "Samadhaan",
+    "date": "2026-04-15T11:00:00",
+    "status": "Registering",
+    "description": "Present your business ideas to a panel of entrepreneurs and investors.",
+    "longDescription": "The ultimate platform for budding entrepreneurs. Pitch your business model, target market, and scalability plan.",
+    "image": "https://images.unsplash.com/photo-1556761175-b413da4baf72?q=80&w=1000",
+    "tags": ["Startup", "Business", "Pitching"],
+    "schedule": [{"time": "11:00 AM", "activity": "Pitching Rounds"}, {"time": "03:00 PM", "activity": "Mentor Feedback Session"}],
+    "faq": [{"q": "Need a prototype?", "a": "It's not mandatory but highly recommended for better scoring."}]
+  },
+  {
+    "id": "beatboxing-battle",
+    "title": "Rhythm Rush: Beatboxing",
+    "category": "Adhaar",
+    "date": "2026-04-04T18:00:00",
+    "status": "Filling Fast",
+    "description": "Showcase your vocal percussion skills in this energetic battle.",
+    "longDescription": "Compete against other beatboxers in a multi-round elimination tournament. Show your technicality, musicality, and stage presence.",
+    "image": "https://images.unsplash.com/photo-1508700115892-45ecd05ae2ad?q=80&w=1000",
+    "tags": ["Beatbox", "Music", "Underground"],
+    "schedule": [{"time": "06:00 PM", "activity": "Elimination Round"}, {"time": "08:00 PM", "activity": "Face-off Rounds"}],
+    "faq": [{"q": "Microphone provided?", "a": "Yes, high-quality dynamic mics will be provided."}]
+  },
+  {
+    "id": "treasure-hunt-2026",
+    "title": "Mega Treasure Hunt",
+    "category": "Nirmaan",
+    "date": "2026-03-24T09:00:00",
+    "status": "Open",
+    "description": "Solve riddles and explore the campus to find the ultimate treasure.",
+    "longDescription": "The most exciting event of the fest! Teams will solve cryptic clues that lead them to various locations across the campus.",
+    "image": "https://images.unsplash.com/photo-1533749047139-189de3cf06d3?q=80&w=1000",
+    "tags": ["Fun", "Adventure", "Teamwork"],
+    "schedule": [{"time": "09:00 AM", "activity": "First Clue Reveal"}, {"time": "01:00 PM", "activity": "Final Treasure Location"}],
+    "faq": [{"q": "Maximum team size?", "a": "Teams of 3 members."}]
   }
 ]

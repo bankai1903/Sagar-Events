@@ -2,6 +2,7 @@
 
 import { motion } from 'framer-motion'
 import { ChevronRight, Zap } from 'lucide-react'
+import Link from 'next/link'
 
 export default function Hero() {
   return (
@@ -18,10 +19,13 @@ export default function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
         >
-          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/5 border border-white/10 mb-8 backdrop-blur-sm">
-            <Zap size={16} className="text-accent-orange" />
+          <Link 
+            href="/events/sagar-fiesta-2026"
+            className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/5 border border-white/10 mb-8 backdrop-blur-sm hover:bg-white/10 hover:border-accent-orange transition-all group"
+          >
+            <Zap size={16} className="text-accent-orange group-hover:scale-110 transition-transform" />
             <span className="text-sm font-medium text-white/80">Sagar Fiesta 2026 is Landing Soon</span>
-          </div>
+          </Link>
 
           <h1 className="text-5xl md:text-8xl font-black mb-6 tracking-tighter">
             WHERE <span className="text-gradient">INNOVATION</span> <br />
@@ -34,18 +38,18 @@ export default function Hero() {
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <button className="btn-primary flex items-center gap-2 group">
+            <Link href="#events" className="btn-primary flex items-center gap-2 group">
               Explore Events 
               <ChevronRight size={20} className="group-hover:translate-x-1 transition-transform" />
-            </button>
-            <button className="btn-outline">
+            </Link>
+            <Link href="#moments" className="btn-outline">
               SISTec Moments
-            </button>
+            </Link>
           </div>
         </motion.div>
 
         {/* Floating Stat Cards for visual impact */}
-        <div className="mt-20 grid grid-cols-2 md:grid-cols-4 gap-4 max-w-4xl mx-auto">
+        <div className="mt-20 mb-20 grid grid-cols-2 md:grid-cols-4 gap-4 max-w-4xl mx-auto">
           {[
             { label: 'Events', value: '40+' },
             { label: 'Colleges', value: '100+' },
@@ -57,10 +61,10 @@ export default function Hero() {
               initial={{ opacity: 0, scale: 0.9 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ delay: 0.5 + i * 0.1 }}
-              className="glass-card p-4 rounded-2xl"
+              className="glass-card p-8 rounded-2xl flex flex-col justify-center min-h-[140px]"
             >
-              <div className="text-2xl font-bold text-accent-blue">{stat.value}</div>
-              <div className="text-xs uppercase tracking-widest text-foreground/40">{stat.label}</div>
+              <div className="text-3xl font-bold text-accent-blue mb-2">{stat.value}</div>
+              <div className="text-xs uppercase tracking-widest text-foreground/40 font-bold">{stat.label}</div>
             </motion.div>
           ))}
         </div>

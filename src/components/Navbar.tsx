@@ -7,9 +7,9 @@ import { motion, AnimatePresence } from 'framer-motion'
 import { cn } from '@/lib/utils'
 
 const navLinks = [
-  { name: 'Events', href: '#events', icon: Calendar },
-  { name: 'Timeline', href: '#timeline', icon: Info },
-  { name: 'Moments', href: '#moments', icon: User },
+  { name: 'Events', href: '/#events', icon: Calendar },
+  { name: 'Timeline', href: '/#timeline', icon: Info },
+  { name: 'Moments', href: '/#moments', icon: User },
 ]
 
 export default function Navbar() {
@@ -44,13 +44,15 @@ export default function Navbar() {
               {link.name}
             </Link>
           ))}
-          <button className="btn-primary py-2 px-5 text-sm">Register Now</button>
+          <Link href="/login" className="btn-primary py-2 px-5 text-sm">Login Now</Link>
         </div>
 
         {/* Mobile Toggle */}
         <button 
           className="md:hidden text-foreground"
           onClick={() => setIsOpen(!isOpen)}
+          aria-label={isOpen ? "Close menu" : "Open menu"}
+          aria-expanded={isOpen}
         >
           {isOpen ? <X size={28} /> : <Menu size={28} />}
         </button>
@@ -76,7 +78,7 @@ export default function Navbar() {
                 {link.name}
               </Link>
             ))}
-            <button className="btn-primary w-full mt-4 text-lg">Register Now</button>
+            <Link href="/login" onClick={() => setIsOpen(false)} className="btn-primary w-full mt-4 text-center text-lg">Login Now</Link>
           </motion.div>
         )}
       </AnimatePresence>
