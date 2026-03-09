@@ -20,6 +20,26 @@
     ]
   },
   {
+    "id": "hack-sistec-1",
+    "title": "Samadhaan Hackathon",
+    "category": "Samadhaan",
+    "date": "2026-04-10T09:00:00",
+    "status": "Closed",
+    "description": "24-hour hackathon to solve real-world problems. Build, innovate, and win big!",
+    "longDescription": "Samadhaan is a platform for young minds to tackle challenges in healthcare, agriculture, and urban development using technology. Join teams, brainstorm, and build prototypes within 24 hours.",
+    "image": "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?q=80&w=1000",
+    "tags": ["Hackathon", "Innovation", "Coding"],
+    "schedule": [
+      { "time": "09:00 AM", "activity": "Problem Statement Reveal" },
+      { "time": "10:00 AM", "activity": "Hacking Starts" },
+      { "time": "10:00 AM (Next Day)", "activity": "Pitching Session" }
+    ],
+    "faq": [
+      { "q": "What is the team size?", "a": "Teams can have 2 to 4 members." },
+      { "q": "Are hardware projects allowed?", "a": "Yes, we encourage both software and hardware solutions." }
+    ]
+  },
+  {
     "id": "sagar-roadies-2026",
     "title": "Sagar Roadies",
     "category": "Adhaar",

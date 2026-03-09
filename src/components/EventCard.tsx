@@ -5,6 +5,7 @@ import Image from 'next/image'
 import { motion } from 'framer-motion'
 import { MapPin, Calendar, ArrowUpRight } from 'lucide-react'
 import { cn } from '@/lib/utils'
+import { useState, useEffect } from 'react'
 
 interface EventProps {
   event: {
@@ -20,16 +21,22 @@ interface EventProps {
 }
 
 export default function EventCard({ event }: EventProps) {
+  const [mounted, setMounted] = useState(false)
+
+  useEffect(() => {
+    setMounted(true)
+  }, [])
+
   const statusColors: Record<string, string> = {
     'Open': 'bg-green-500/20 text-green-400 border-green-500/30',
     'Filling Fast': 'bg-orange-500/20 text-orange-400 border-orange-500/30',
     'Closed': 'bg-red-500/20 text-red-400 border-red-500/30',
   }
 
-  const date = new Date(event.date).toLocaleDateString('en-US', {
+  const date = mounted ? new Date(event.date).toLocaleDateString('en-US', {
     month: 'short',
     day: 'numeric',
-  })
+  }) : ''
 
   return (
     <motion.div
