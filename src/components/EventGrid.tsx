@@ -5,14 +5,14 @@ import { motion, AnimatePresence } from 'framer-motion'
 import EventCard from './EventCard'
 import events from '@/data/events.json'
 
-const categories = ['All', 'Fiesta', 'Samadhaan', 'Adhaar']
+const categories = ['All', 'Fiesta']
 
 export default function EventGrid() {
   const [activeCategory, setActiveCategory] = useState('All')
 
   const filteredEvents = activeCategory === 'All' 
-    ? events.filter(e => ['sagar-fiesta-2026', 'hack-sistec-1', 'adhaar-quiz'].includes(e.id)) 
-    : events.filter(e => e.category === activeCategory && ['sagar-fiesta-2026', 'hack-sistec-1', 'adhaar-quiz'].includes(e.id))
+    ? events.filter(e => ['sagar-fiesta-2026', 'code-rush-2026', 'robotics-war'].includes(e.id)) 
+    : events.filter(e => e.category === activeCategory && ['sagar-fiesta-2026', 'code-rush-2026', 'robotics-war'].includes(e.id))
 
   return (
     <section id="events" className="py-24 container mx-auto px-6">

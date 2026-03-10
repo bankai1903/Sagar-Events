@@ -20,26 +20,6 @@
     ]
   },
   {
-    "id": "hack-sistec-1",
-    "title": "Samadhaan Hackathon",
-    "category": "Samadhaan",
-    "date": "2026-04-10T09:00:00",
-    "status": "Closed",
-    "description": "24-hour hackathon to solve real-world problems. Build, innovate, and win big!",
-    "longDescription": "Samadhaan is a platform for young minds to tackle challenges in healthcare, agriculture, and urban development using technology. Join teams, brainstorm, and build prototypes within 24 hours.",
-    "image": "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?q=80&w=1000",
-    "tags": ["Hackathon", "Innovation", "Coding"],
-    "schedule": [
-      { "time": "09:00 AM", "activity": "Problem Statement Reveal" },
-      { "time": "10:00 AM", "activity": "Hacking Starts" },
-      { "time": "10:00 AM (Next Day)", "activity": "Pitching Session" }
-    ],
-    "faq": [
-      { "q": "What is the team size?", "a": "Teams can have 2 to 4 members." },
-      { "q": "Are hardware projects allowed?", "a": "Yes, we encourage both software and hardware solutions." }
-    ]
-  },
-  {
     "id": "sagar-roadies-2026",
     "title": "Sagar Roadies",
     "category": "Adhaar",
@@ -57,24 +37,6 @@
     "faq": [
       { "q": "What should I wear?", "a": "Comfortable sports attire and sturdy shoes are mandatory." },
       { "q": "Is there an age limit?", "a": "Participants must be current college students." }
-    ]
-  },
-  {
-    "id": "adhaar-quiz",
-    "title": "Adhaar Quiz League",
-    "category": "Adhaar",
-    "date": "2026-02-28T11:00:00",
-    "status": "Closed",
-    "description": "Test your knowledge across science, tech, and current affairs in this mega quiz.",
-    "longDescription": "Adhaar Quiz League is designed to challenge your intellect and memory. Compete against the brightest minds and dive deep into the world of facts.",
-    "image": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?q=80&w=1000",
-    "tags": ["Quiz", "Knowledge", "Compete"],
-    "schedule": [
-      { "time": "11:00 AM", "activity": "Preliminary Round" },
-      { "time": "02:00 PM", "activity": "Final Stage Round" }
-    ],
-    "faq": [
-      { "q": "Is there a registration fee?", "a": "No, entry is free for all SISTec students." }
     ]
   },
   {
@@ -232,5 +194,200 @@
     "tags": ["Fun", "Adventure", "Teamwork"],
     "schedule": [{"time": "09:00 AM", "activity": "First Clue Reveal"}, {"time": "01:00 PM", "activity": "Final Treasure Location"}],
     "faq": [{"q": "Maximum team size?", "a": "Teams of 3 members."}]
+  },
+  {
+    "id": "cad-mania",
+    "title": "CAD Mania",
+    "category": "Fiesta",
+    "date": "2026-03-25T11:00:00",
+    "status": "Open",
+    "description": "Showcase your precision and speed in 3D modeling and CAD design.",
+    "longDescription": "CAD Mania is the ultimate competition for design enthusiasts. Participants will be tasked with creating complex 3D models using industry-standard CAD software. Accuracy, technical proficiency, and time efficiency are the keys to winning.",
+    "image": "https://images.unsplash.com/photo-1581094794329-c8112a89af12?q=80&w=1000",
+    "tags": ["Design", "Engineering", "CAD"],
+    "schedule": [{"time": "11:00 AM", "activity": "Drafting Challenge"}, {"time": "02:00 PM", "activity": "Final Render"}],
+    "faq": [{"q": "Software provided?", "a": "AutoCAD and SolidWorks will be available."}]
+  },
+  {
+    "id": "robo-race",
+    "title": "Robo Race",
+    "category": "Fiesta",
+    "date": "2026-03-26T10:00:00",
+    "status": "Open",
+    "description": "Speed, agility, and control. Race your robot against the clock and obstacles.",
+    "longDescription": "Robo Race tests the speed and maneuverability of your custom-built robots. Navigate through a challenging obstacle course in the shortest time possible without falling off or hitting designated markers.",
+    "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?q=80&w=1000",
+    "tags": ["Robotics", "Racing", "Control"],
+    "schedule": [{"time": "10:00 AM", "activity": "Track Inspection"}, {"time": "11:00 AM", "activity": "Heats Begin"}],
+    "faq": [{"q": "Wire vs Wireless?", "a": "Both categories are available with separate leaderboards."}]
+  },
+  {
+    "id": "case-chronicles",
+    "title": "Case Chronicles",
+    "category": "Samadhaan",
+    "date": "2026-04-12T14:00:00",
+    "status": "Open",
+    "description": "Analyze complex business scenarios and provide strategic solutions.",
+    "longDescription": "Case Chronicles is a management-focused competition where teams are presented with real-world business problems. You must analyze the data, identify core issues, and present a viable, scalable strategy.",
+    "image": "https://images.unsplash.com/photo-1454165833767-027eeea160a7?q=80&w=1000",
+    "tags": ["Business", "Strategy", "Analysis"],
+    "schedule": [{"time": "02:00 PM", "activity": "Case Study Handout"}, {"time": "04:00 PM", "activity": "Presentation Round"}],
+    "faq": [{"q": "Team size?", "a": "Maximum 3 members per team."}]
+  },
+  {
+    "id": "voltxplore",
+    "title": "VoltXplore",
+    "category": "Fiesta",
+    "date": "2026-03-27T09:00:00",
+    "status": "Open",
+    "description": "Navigate the world of circuits and electronics in this technical challenge.",
+    "longDescription": "VoltXplore is an electronics design and troubleshooting competition. From circuit simulation to hardware implementation, test your skills in power electronics and embedded systems.",
+    "image": "https://images.unsplash.com/photo-1517077304055-6e89abf09b0c?q=80&w=1000",
+    "tags": ["Electronics", "Circuits", "Innovation"],
+    "schedule": [{"time": "09:00 AM", "activity": "Circuit Debugging"}, {"time": "01:00 PM", "activity": "Project Demo"}],
+    "faq": [{"q": "Components provided?", "a": "Standard kits will be provided for on-spot rounds."}]
+  },
+  {
+    "id": "ai-prompt-combat",
+    "title": "A.I Prompt Combat 2.0",
+    "category": "Samadhaan",
+    "date": "2026-04-13T11:00:00",
+    "status": "Open",
+    "description": "The ultimate test of prompt engineering. Master the AI to win.",
+    "longDescription": "In A.I Prompt Combat 2.0, speed and precision in instructing Generative AI models are paramount. Solve complex creative and technical tasks by crafting the perfect prompts.",
+    "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?q=80&w=1000",
+    "tags": ["AI", "Generative", "Future"],
+    "schedule": [{"time": "11:00 AM", "activity": "Prompt Efficiency Round"}, {"time": "02:00 PM", "activity": "Creative Gen Challenge"}],
+    "faq": [{"q": "LLMs used?", "a": "Participants will have access to ChatGPT 4o and Claude 3.5."}]
+  },
+  {
+    "id": "ctf-challenge",
+    "title": "Capture The Flag (CTF)",
+    "category": "Fiesta",
+    "date": "2026-03-28T18:00:00",
+    "status": "Open",
+    "description": "A jeopardy-style cybersecurity challenge for ethical hackers.",
+    "longDescription": "Test your cybersecurity skills in this overnight CTF. Challenges range from web exploitation and cryptography to reverse engineering and forensics.",
+    "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=1000",
+    "tags": ["Cybersecurity", "Hacking", "NetSec"],
+    "schedule": [{"time": "06:00 PM (Start)", "activity": "Portal Opens"}, {"time": "06:00 AM (End)", "activity": "Final Submission"}],
+    "faq": [{"q": "Requirements?", "a": "Laptop and a Linux environment (VM/WSL) recommended."}]
+  },
+  {
+    "id": "circuit-storm",
+    "title": "Circuit Storm",
+    "category": "Fiesta",
+    "date": "2026-03-29T10:00:00",
+    "status": "Open",
+    "description": "A high-speed competition for PCB design and circuit optimization.",
+    "longDescription": "Circuit Storm challenges teams to design efficient PCBs under constraints. Your design will be judged on signal integrity, thermal management, and compactness.",
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=1000",
+    "tags": ["PCB", "Electronics", "Designing"],
+    "schedule": [{"time": "10:00 AM", "activity": "Design Brief"}, {"time": "03:00 PM", "activity": "Review & Testing"}],
+    "faq": [{"q": "Software tools?", "a": "Altium Designer, KiCad, or Proteus."}]
+  },
+  {
+    "id": "shock-wave",
+    "title": "Shock Wave",
+    "category": "Fiesta",
+    "date": "2026-03-30T14:00:00",
+    "status": "Open",
+    "description": "Electrical engineering expertise meets rapid problem solving.",
+    "longDescription": "Shock Wave focuses on electrical installation and fault detection in power systems. A hands-on competition for those who deal with high voltage and industrial controls.",
+    "image": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?q=80&w=1000",
+    "tags": ["Electrical", "Power", "Control"],
+    "schedule": [{"time": "02:00 PM", "activity": "Wiring Challenge"}, {"time": "04:30 PM", "activity": "Fault Identification"}],
+    "faq": [{"q": "Safety gear?", "a": "Standard safety gloves and goggles are mandatory."}]
+  },
+  {
+    "id": "clash-of-codies",
+    "title": "Clash of Codies",
+    "category": "Fiesta",
+    "date": "2026-03-31T11:00:00",
+    "status": "Open",
+    "description": "A fast-paced algorithmic coding battle for university students.",
+    "longDescription": "Clash of Codies is a multi-round competitive programming event. Solve data structure and algorithm problems to out-code your rivals on the leaderboard.",
+    "image": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?q=80&w=1000",
+    "tags": ["DSA", "Coding", "Competition"],
+    "schedule": [{"time": "11:00 AM", "activity": "Qualifiers"}, {"time": "02:00 PM", "activity": "Top-16 Duels"}],
+    "faq": [{"q": "Platform?", "a": "Hosted on HackerRank/CodeChef."}]
+  },
+  {
+    "id": "sagar-sahitya",
+    "title": "Sagar Sahitya",
+    "category": "Adhaar",
+    "date": "2026-04-01T10:00:00",
+    "status": "Open",
+    "description": "Celebrating the power of words and literature.",
+    "longDescription": "Sagar Sahitya is a literary fest within the festival. From poetry slams and story writing to panel discussions on modern literature, it's a haven for thinkers and writers.",
+    "image": "https://images.unsplash.com/photo-1474932430478-3a7fb9065ba0?q=80&w=1000",
+    "tags": ["Literature", "Poetry", "Writing"],
+    "schedule": [{"time": "10:00 AM", "activity": "Poetry Slam"}, {"time": "03:00 PM", "activity": "Author Q&A"}],
+    "faq": [{"q": "Languages?", "a": "Hindi, English, and Regional languages are welcome."}]
+  },
+  {
+    "id": "sagar-roadies-main",
+    "title": "Sagar Roadies 2.0",
+    "category": "Adhaar",
+    "date": "2026-04-03T09:00:00",
+    "status": "Open",
+    "description": "The ultimate test of grit, mental strength, and teamwork.",
+    "longDescription": "Building on the success of the first edition, Sagar Roadies 2.0 brings tougher trials and more intense eliminations. Are you ready to 'Root to Rise'?",
+    "image": "https://i.postimg.cc/qR00L7QJ/sagar-roadies.jpg",
+    "tags": ["Adventure", "Challenge", "Endurance"],
+    "schedule": [{"time": "09:00 AM", "activity": "Group Discussion"}, {"time": "01:00 PM", "activity": "Physical Task"}],
+    "faq": [{"q": "Medical fitness?", "a": "Must be medically fit to participate in physical tasks."}]
+  },
+  {
+    "id": "esports-mania",
+    "title": "E Sports Mania",
+    "category": "Fiesta",
+    "date": "2026-03-24T12:00:00",
+    "status": "Open",
+    "description": "A multi-game esports tournament featuring BGMI, FIFA, and more.",
+    "longDescription": "E Sports Mania is the hub for gamers. Compete in individual and team titles across mobile and console games. Win trophies and massive prize pools.",
+    "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?q=80&w=1000",
+    "tags": ["Gaming", "Esports", "BGMI"],
+    "schedule": [{"time": "12:00 PM", "activity": "Lobby Allotment"}, {"time": "02:00 PM", "activity": "Final Matches"}],
+    "faq": [{"q": "Internet?", "a": "High-speed Ethernet and Wi-Fi provided."}]
+  },
+  {
+    "id": "ojas-cultural",
+    "title": "Ojas: Fashion Show",
+    "category": "Adhaar",
+    "date": "2026-04-05T19:00:00",
+    "status": "Open",
+    "description": "Walk the ramp and showcase your style and elegance.",
+    "longDescription": "Ojas is the flagship fashion event of SISTec. Themes focus on heritage, sustainability, and futuristic fashion. Let your confidence shine on the big stage.",
+    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=1000",
+    "tags": ["Fashion", "Glamour", "Ramp"],
+    "schedule": [{"time": "07:00 PM", "activity": "Theme Walk"}, {"time": "09:00 PM", "activity": "Crowning Ceremony"}],
+    "faq": [{"q": "Designer criteria?", "a": "Original themes inspired by 'Root to Rise' carry extra weight."}]
+  },
+  {
+    "id": "ninaad-cultural",
+    "title": "Ninaad: Folk & Semi-Classical Dance",
+    "category": "Adhaar",
+    "date": "2026-04-04T17:00:00",
+    "status": "Open",
+    "description": "A celebration of traditional Indian dance forms and rhythms.",
+    "longDescription": "Ninaad brings back the soul of traditional India. Watch groups and soloists perform Bharatanatyam, Kathak, and various folk dances representing our rich culture.",
+    "image": "https://images.unsplash.com/photo-1508700115892-45ecd05ae2ad?q=80&w=1000",
+    "tags": ["Dance", "Culture", "Folk"],
+    "schedule": [{"time": "05:00 PM", "activity": "Traditional Segment"}, {"time": "08:00 PM", "activity": "Grand Finale"}],
+    "faq": [{"q": "Music format?", "a": "MP3 format on a USB drive required 1 hour before event."}]
+  },
+  {
+    "id": "runway-fame",
+    "title": "Runway Fame",
+    "category": "Adhaar",
+    "date": "2026-04-05T20:00:00",
+    "status": "Open",
+    "description": "The peak of fashion and modeling competitions.",
+    "longDescription": "Runway Fame highlights individual talent and modeling prowess. It's not just about the clothes, but the personality and grace of the students.",
+    "image": "https://images.unsplash.com/photo-1496019566086-b7d2a63958f9?q=80&w=1000",
+    "tags": ["Modeling", "Runway", "Style"],
+    "schedule": [{"time": "08:00 PM", "activity": "Introduction Round"}, {"time": "10:00 PM", "activity": "Award Distribution"}],
+    "faq": [{"q": "Auditions?", "a": "Pre-fest auditions will be held for all contestants."}]
   }
 ]

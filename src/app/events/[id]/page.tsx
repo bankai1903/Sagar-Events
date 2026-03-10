@@ -11,6 +11,7 @@ import { cn } from '@/lib/utils'
 import { useState, useEffect } from 'react'
 import Link from 'next/link'
 import { ExternalLink, Trophy, Lightbulb, Music } from 'lucide-react'
+import Checkout from '@/components/Checkout'
 
 export default function EventDetail() {
   const { id } = useParams()
@@ -19,6 +20,8 @@ export default function EventDetail() {
   const [isRegistering, setIsRegistering] = useState(false)
   const [step, setStep] = useState(1)
   const [mounted, setMounted] = useState(false)
+  const [hasAgreed, setHasAgreed] = useState(false)
+  const [showCheckout, setShowCheckout] = useState(false)
 
   useEffect(() => {
     setMounted(true)
@@ -107,7 +110,23 @@ export default function EventDetail() {
               <div className="pt-8">
                 <h2 className="text-3xl font-bold mb-8">Featured Competitions & Workshops</h2>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                  {events.filter(e => e.id !== 'sagar-fiesta-2026').slice(0, 12).map((subEvent) => (
+                  {events.filter(e => [
+                    'cad-mania',
+                    'robo-race',
+                    'case-chronicles',
+                    'voltxplore',
+                    'ai-prompt-combat',
+                    'ctf-challenge',
+                    'circuit-storm',
+                    'shock-wave',
+                    'clash-of-codies',
+                    'sagar-sahitya',
+                    'sagar-roadies-main',
+                    'esports-mania',
+                    'ojas-cultural',
+                    'ninaad-cultural',
+                    'runway-fame'
+                  ].includes(e.id)).map((subEvent) => (
                     <Link 
                       key={subEvent.id} 
                       href={`/events/${subEvent.id}`}
@@ -235,6 +254,46 @@ export default function EventDetail() {
                   </button>
                 </div>
               </div>
+            ) : step === 2 ? (
+              <div>
+                <h2 className="text-2xl font-bold mb-6 text-accent-blue text-center">Terms & Conditions</h2>
+                <div className="bg-white/5 border border-white/10 rounded-2xl p-6 mb-6 max-h-60 overflow-y-auto">
+                  <ul className="text-sm text-foreground/70 space-y-3 list-disc pl-4">
+                    <li>Participants must provide accurate and complete registration details.</li>
+                    <li>Any form of misconduct, cheating, or plagiarism will result in immediate disqualification.</li>
+                    <li>The organizers hold the right to modify event details at any time.</li>
+                    <li>Registered participants must adhere to the event schedule and guidelines.</li>
+                    <li>Fees (if applicable) are non-refundable once paid.</li>
+                    <li>The organizers are not responsible for any personal belongings lost during the event.</li>
+                    <li>Decisions made by the event judges/organizers will be final and binding.</li>
+                  </ul>
+                </div>
+                
+                <label className="flex items-center gap-3 cursor-pointer mb-8 group">
+                  <div className="relative flex items-center">
+                    <input 
+                      type="checkbox" 
+                      className="peer hidden" 
+                      checked={hasAgreed}
+                      onChange={(e) => setHasAgreed(e.target.checked)}
+                    />
+                    <div className="w-5 h-5 border-2 border-white/20 rounded peer-checked:bg-accent-blue peer-checked:border-accent-blue transition-all" />
+                    <CheckCircle2 className="absolute text-white scale-0 peer-checked:scale-100 transition-transform left-0.5 top-0.5" size={16} />
+                  </div>
+                  <span className="text-sm text-foreground/60 group-hover:text-white transition-colors">I agree to the Terms & Conditions</span>
+                </label>
+
+                <button 
+                  onClick={() => setShowCheckout(true)}
+                  disabled={!hasAgreed}
+                  className={cn(
+                    "btn-primary w-full py-4 text-sm font-bold shadow-lg transition-all",
+                    !hasAgreed && "opacity-50 cursor-not-allowed grayscale"
+                  )}
+                >
+                  Pay and Register Nowww
+                </button>
+              </div>
             ) : (
               <div className="text-center py-10">
                 <div className="w-20 h-20 bg-green-500/20 text-green-500 rounded-full flex items-center justify-center mx-auto mb-6">
@@ -258,6 +317,19 @@ export default function EventDetail() {
             </button>
           </motion.div>
         </div>
+      )}
+
+      {/* Payment Gateway Simulation */}
+      {showCheckout && (
+        <Checkout 
+          amount={500} 
+          eventName={event.title}
+          onComplete={() => {
+            setShowCheckout(false)
+            setStep(3)
+          }}
+          onCancel={() => setShowCheckout(false)}
+        />
       )}
 
       <Footer />
