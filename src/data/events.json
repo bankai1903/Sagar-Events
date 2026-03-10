@@ -27,7 +27,7 @@
     "status": "Filling Fast",
     "description": "The ultimate test of guts, glory, and endurance in this high-energy adventure challenge.",
     "longDescription": "Sagar Roadies is not for the faint-hearted. It's a series of physical and mental challenges designed to test your resilience, teamwork, and decision-making under pressure. Join the journey to find the ultimate Roadie of SISTec.\n\nTheme: ROOT TO RISE - Honour your Roots, Rise towards Future.\nNational Level Techno-Cultural Fest.",
-    "image": "https://i.postimg.cc/qR00L7QJ/sagar-roadies.jpg",
+    "image": "https://images.unsplash.com/photo-1533418264835-98fe1e49c11b?q=80&w=1000",
     "tags": ["Adventure", "Endurance", "Challenge"],
     "schedule": [
       { "time": "09:00 AM", "activity": "Auditions & Physical Test" },
@@ -333,7 +333,7 @@
     "status": "Open",
     "description": "The ultimate test of grit, mental strength, and teamwork.",
     "longDescription": "Building on the success of the first edition, Sagar Roadies 2.0 brings tougher trials and more intense eliminations. Are you ready to 'Root to Rise'?",
-    "image": "https://i.postimg.cc/qR00L7QJ/sagar-roadies.jpg",
+    "image": "https://images.unsplash.com/photo-1541534741688-6078c64b52d2?q=80&w=1000",
     "tags": ["Adventure", "Challenge", "Endurance"],
     "schedule": [{"time": "09:00 AM", "activity": "Group Discussion"}, {"time": "01:00 PM", "activity": "Physical Task"}],
     "faq": [{"q": "Medical fitness?", "a": "Must be medically fit to participate in physical tasks."}]
