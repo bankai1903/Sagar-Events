@@ -11,8 +11,8 @@ export default function EventGrid() {
   const [activeCategory, setActiveCategory] = useState('All')
 
   const filteredEvents = activeCategory === 'All' 
-    ? events.filter(e => ['sagar-fiesta-2026', 'sagar-roadies-2026', 'ui-ux-design-challenge'].includes(e.id)) 
-    : events.filter(e => e.category === activeCategory && ['sagar-fiesta-2026', 'sagar-roadies-2026', 'ui-ux-design-challenge'].includes(e.id))
+    ? events.filter(e => ['sagar-fiesta-2026'].includes(e.id)) 
+    : events.filter(e => e.category === activeCategory && ['sagar-fiesta-2026'].includes(e.id))
 
   return (
     <section id="events" className="py-24 container mx-auto px-6">
