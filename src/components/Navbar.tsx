@@ -29,22 +29,26 @@ export default function Navbar() {
     )}>
       <div className="max-w-7xl mx-auto flex justify-between items-center">
         <Link href="/" className="text-2xl font-bold tracking-tighter flex items-center gap-2">
-          <span className="text-accent-blue">Sagar</span>
-          <span className="text-accent-orange">Events</span>
+          <span className="text-accent-blue font-black italic">Sagar</span>
+          <span className="text-accent-orange font-black italic">Events</span>
         </Link>
 
         {/* Desktop Nav */}
-        <div className="hidden md:flex items-center gap-8">
-          {navLinks.map((link) => (
-            <Link 
-              key={link.name} 
-              href={link.href}
-              className="text-sm font-medium text-foreground/70 hover:text-accent-orange transition-colors"
-            >
-              {link.name}
-            </Link>
-          ))}
-          <Link href="/login" className="btn-primary py-2 px-5 text-sm">Login Now</Link>
+        <div className="hidden md:flex items-center gap-12">
+          <div className="flex items-center gap-8 mr-4">
+            {navLinks.map((link) => (
+              <Link 
+                key={link.name} 
+                href={link.href}
+                className="text-sm font-bold text-foreground/70 hover:text-accent-orange transition-all hover:scale-110"
+              >
+                {link.name}
+              </Link>
+            ))}
+          </div>
+          <Link href="/login" className="btn-primary py-2.5 px-8 text-sm font-bold rounded-full shadow-[0_5px_15px_rgba(59,130,246,0.3)] hover:shadow-[0_8px_25px_rgba(59,130,246,0.5)] transition-all">
+            Login Now
+          </Link>
         </div>
 
         {/* Mobile Toggle */}
