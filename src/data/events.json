@@ -2,7 +2,7 @@
   {
     "id": "sagar-fiesta-2026",
     "title": "Sagar Fiesta 2026",
-    "category": "Nirmaan",
+    "category": "Fiesta",
     "date": "2026-03-25T10:00:00",
     "status": "Filling Fast",
     "description": "Sagar Fiesta 2026 is a vibrant techno-cultural extravaganza at SISTec Gandhi Nagar, Bhopal. A celebration of innovation, talent, and creativity.",
@@ -80,7 +80,7 @@
   {
     "id": "code-rush-2026",
     "title": "Code Rush: Competitive Programming",
-    "category": "Nirmaan",
+    "category": "Fiesta",
     "date": "2026-03-26T14:00:00",
     "status": "Filling Fast",
     "description": "Show off your algorithm and problem-solving skills in this high-intensity coding duel.",
@@ -93,7 +93,7 @@
   {
     "id": "robotics-war",
     "title": "Robo-Wars",
-    "category": "Nirmaan",
+    "category": "Fiesta",
     "date": "2026-03-27T11:00:00",
     "status": "Filling Fast",
     "description": "Witness the clash of metal and innovation in the most-awaited robotics battle.",
@@ -145,7 +145,7 @@
   {
     "id": "e-sports-valorant",
     "title": "Valorant Championship",
-    "category": "Nirmaan",
+    "category": "Fiesta",
     "date": "2026-03-28T10:00:00",
     "status": "Filling Fast",
     "description": "Battle out in the tactical shooter tournament to claim the top spot.",
@@ -184,7 +184,7 @@
   {
     "id": "bridge-it-structural",
     "title": "Bridge-It: Structural Contest",
-    "category": "Nirmaan",
+    "category": "Fiesta",
     "date": "2026-04-02T10:00:00",
     "status": "Registering",
     "description": "Design bridges with popsicle sticks that can withstand maximum load.",
@@ -223,7 +223,7 @@
   {
     "id": "treasure-hunt-2026",
     "title": "Mega Treasure Hunt",
-    "category": "Nirmaan",
+    "category": "Fiesta",
     "date": "2026-03-24T09:00:00",
     "status": "Open",
     "description": "Solve riddles and explore the campus to find the ultimate treasure.",

@@ -5,7 +5,7 @@ import { motion, AnimatePresence } from 'framer-motion'
 import EventCard from './EventCard'
 import events from '@/data/events.json'
 
-const categories = ['All', 'Nirmaan', 'Samadhaan', 'Adhaar']
+const categories = ['All', 'Fiesta', 'Samadhaan', 'Adhaar']
 
 export default function EventGrid() {
   const [activeCategory, setActiveCategory] = useState('All')

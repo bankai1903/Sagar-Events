@@ -128,11 +128,11 @@ export default function EventDetail() {
                         <div className="flex justify-between items-start mb-auto">
                           <div className={cn(
                             "p-2 rounded-lg backdrop-blur-md border border-white/10",
-                            subEvent.category === 'Nirmaan' ? "bg-accent-blue/20 text-accent-blue" :
+                            subEvent.category === 'Fiesta' ? "bg-accent-blue/20 text-accent-blue" :
                             subEvent.category === 'Samadhaan' ? "bg-accent-orange/20 text-accent-orange" :
                             "bg-purple-500/20 text-purple-400"
                           )}>
-                            {subEvent.category === 'Nirmaan' ? <Trophy size={18} /> :
+                            {subEvent.category === 'Fiesta' ? <Trophy size={18} /> :
                              subEvent.category === 'Samadhaan' ? <Lightbulb size={18} /> :
                              <Music size={18} />}
                           </div>
